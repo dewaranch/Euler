@@ -1,4 +1,4 @@
-""Euler 8
+"""Euler 8
 Strategy.
 Have a BigSoFar
 Convert big number to string

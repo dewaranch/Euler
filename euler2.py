@@ -11,14 +11,14 @@ do not exceed four million, find the sum of the even-valued terms."""
 
 def Euler2():
     sum=2
-    F1=1
-    F2=2
+    F1=1#first term
+    F2=2#second term
     FCurrent=0
     while FCurrent <= 4000000:
         FCurrent=F1+F2
         F1 = F2
         F2= FCurrent
-        if FCurrent%2==0:
+        if FCurrent%2==0:#only sum even terms
             sum += FCurrent
     print(sum)
         

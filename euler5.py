@@ -6,7 +6,7 @@ What is the smallest positive number that is evenly divisible by
 all of the numbers from 1 to 20?
 
 """
-
+#note we only have to check 11-20 because of redundancy.
 def EveDiv(n): # Divisibility test
     for i in range(11,21):
         if n%i ==0:
@@ -20,6 +20,5 @@ def Euler5():
     while EveDiv(Count)==False:
         Count += 2520
     print(Count)
-        
 Euler5()
 

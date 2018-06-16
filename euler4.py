@@ -23,6 +23,8 @@ def Euler4(): # Loops through 3 digit numbers, finds largest palindrome.
             if IsPalindrome(Counter):
                 if Counter > BigSoFar:
                     BigSoFar=Counter
-    print(BigSoFar)
+                    div1=i
+                    div2=j
+    print(str(BigSoFar)+" is " + str(div1) + " times "+str(div2))
 
 Euler4()

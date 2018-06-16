@@ -23,7 +23,7 @@ def isPrime(n):
     else:
         return True
 
-def Euler7():
+def Euler7():#could be made much faster using a sieve.
     holdlength=10001
     primes=[2,3]
     counter=3
